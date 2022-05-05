@@ -11,7 +11,6 @@ public class AccelDataCommand extends DataCommand {
     private final int ay;
     private final int az;
 
-
     protected AccelDataCommand(Instant receptionTime, int ax, int ay, int az) {
         super(receptionTime);
         this.ax = ax;
